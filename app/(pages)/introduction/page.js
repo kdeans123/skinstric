@@ -51,7 +51,7 @@ function Introduction() {
 
 const handlePlaceProceed = () => {
   if (isLocationSelected) {
-    router.push("/testing");
+    router.push("/testing-page");
   }
 };
 
