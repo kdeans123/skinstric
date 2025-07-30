@@ -470,6 +470,12 @@ svg {
   }
 }
 
+@media (max-width: 576px) {
+  div {
+    font-size: 16px;
+  }
+}
+
 @keyframes spin {
   0% {
     transform: var(--base-transform) rotate(calc(var(--base-rotation)));
