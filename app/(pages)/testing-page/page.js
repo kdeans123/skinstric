@@ -72,7 +72,7 @@ function Testing() {
               </span>
             </div>
 
-            <div className="flex justify-around mb-auto mt-auto pb-16 flex-col">
+            <div className="flex justify-around mb-auto mt-auto pb-16 flex-col md:flex-row gap-20">
               <input
                 type="file"
                 accept="image/*"
@@ -84,7 +84,7 @@ function Testing() {
 {/* LEFT IMAGE-BUTTON */}
 
               <button className="access__button" onClick={handleCameraAccess}>
-                <span className="dotted-square is-expanded is-animated">  </span>
+                <span className="dotted-square is-expanded is-animated md:left-[0] left-[20%]">  </span>
                   <span className="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[112px] flex justify-center items-center hover:scale-75 transition-all duration-300 ease-in-out">
                     <svg
                       className=" absolute  transform rotate-90"
@@ -118,7 +118,7 @@ function Testing() {
                 className="access__button"
                 onClick={() => document.getElementById("fileInput").click()}
               >
-                <span className="dotted-square is-expanded is-animated"> </span>
+                <span className="dotted-square is-expanded is-animated md:left-[0] left-[20%]"> </span>
                   <span className="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[112px] hover:scale-75 transition-all duration-300 ease-in-out">
                     <svg
                       className="w-[136px] h-[136px] relative -top-1 left-1 transform"
