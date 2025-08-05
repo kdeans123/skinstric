@@ -72,7 +72,7 @@ function Testing() {
               </span>
             </div>
 
-            <div className="flex justify-around mb-auto mt-auto pb-16">
+            <div className="flex justify-around mb-auto mt-auto pb-16 flex-col">
               <input
                 type="file"
                 accept="image/*"
